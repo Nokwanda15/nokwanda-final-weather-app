@@ -11,20 +11,39 @@ body {
 .text-background {
   background: #7ddeff;
   width: 500px;
-  padding: 70px 30px;
+  padding: 50px 30px 70px 30px;
   border-radius: 30px;
   margin: 0 auto;
+  box-shadow: 0 20px 45px rgba(135, 93, 241, 0.45);
 }
 #searchbox {
   border-radius: 10px;
-  padding: 8px;
+  padding: 15px;
+  background: #f3eeed;
+  border: none;
+  width: 300px;
 }
 #result-button {
   border-radius: 10px;
-  padding: 8px 10px;
+  padding: 15px 20px;
   font-weight: bold;
+  border: 30px;
+  color: white;
+  background: #066fbf;
+  font-size: 14px;
 }
 .first-form {
   display: block;
   margin: 0 auto;
+}
+header {
+  border-bottom: 1px solid #c3e8f9;
+  padding: 30px 0;
+}
+footer {
+  border-top: 1px solid #c3e8f9;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
 }
