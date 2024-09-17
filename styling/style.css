@@ -6,4 +6,25 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  padding: 40px;
+}
+.text-background {
+  background: #7ddeff;
+  width: 500px;
+  padding: 70px 30px;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+#searchbox {
+  border-radius: 10px;
+  padding: 8px;
+}
+#result-button {
+  border-radius: 10px;
+  padding: 8px 10px;
+  font-weight: bold;
+}
+.first-form {
+  display: block;
+  margin: 0 auto;
 }
