@@ -23,3 +23,5 @@ function submitted(event) {
 
 let searchBoxElement = document.querySelector("#search-field");
 searchBoxElement.addEventListener("submit", submitted);
+
+enteredCity(`Johannesburg`);
