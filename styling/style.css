@@ -58,16 +58,20 @@ footer {
   justify-content: space-between;
 }
 .temperature {
-  font-size: 50px;
+  display: flex;
   margin: 25px 10px;
-  font-weight: bold;
-  color: white;
 }
 main {
   padding: 10px 0 30px;
 }
-
-.icon {
-  font-size: 30px;
-  margin: 5px;
+.degree {
+  font-weight: bold;
+  color: white;
+  line-height: 88px;
+  font-size: 80px;
+}
+#weather-icon {
+  width: 24px;
+  height: 40px;
+  padding: 15px 40px 0 0;
 }

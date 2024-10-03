@@ -2,13 +2,16 @@ function showCityWeather(response) {
   console.log(response);
   let temperature = document.querySelector("#temp-value");
   let temp = response.data.temperature.current;
-  temperature.innerHTML = Math.round(temp);
-
+  temperature.innerHTML = `${Math.round(temp)}°C `;
+  console.log(response);
   let conditionElement = document.querySelector("#weather-condition");
   conditionElement.innerHTML = response.data.condition.description;
 
   let currentCity = document.querySelector("#city-name");
   currentCity.innerHTML = response.data.city;
+
+  let weatherIconElement = document.querySelector("#weather-icon");
+  weatherIconElement.innerHTML = `<img src="${response.data.condition.icon_url} " width= 65px/> `;
 
   let humidityElement = document.querySelector("#humid");
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
