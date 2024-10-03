@@ -5,7 +5,7 @@ function showCityWeather(response) {
   temperature.innerHTML = `${Math.round(temp)}°C `;
   console.log(response);
   let conditionElement = document.querySelector("#weather-condition");
-  conditionElement.innerHTML = response.data.condition.description;
+  conditionElement.innerHTML = ` ${response.data.condition.description}`;
 
   let currentCity = document.querySelector("#city-name");
   currentCity.innerHTML = response.data.city;
